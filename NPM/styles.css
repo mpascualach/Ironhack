@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f526f;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 30px;
+  font-size: 10px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+button {
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 16px;
+  border: none;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.top-left {
+  display: inline;
+  text-align: left;
+}
+
+.top-links {
+  display: inline;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: right;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.first-half {
+    background-color: rgb(31, 82, 111);
+    color: white;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.first-half img {
+  width: 130px;
+}
+
+.search-bar {
+  margin-top: 10px;
+  width: 700px;
+  height: 50px;
+  background-color:rgb(31, 82, 111);
+  color: grey;
+  border-collapse: collapse;
+  border-style: groove;
+}
+
+.btn-submit {
+  background-image: image("magnifyingglass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-half {
+  background-color: rgb(32, 101, 136);
+  background-image: url("file:///C:/Users/User/Desktop/HTML/NPM/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.second-half .section-text {
+  color: white;
+  width: 80%;
+  padding: 8px;
+  line-height: 1.3;
+  margin-top: 3%;
+  margin-left: 7%;
+  float: left;
+}
+
+.second-half h2 {
+  font-weight: 200;
+}
+
+.second-half p {
+  margin-right: 45%;
+  padding: 8px 0;
+}
+
+.second-half button {
+  background-color: rgb(240, 146, 51);
+  color: white;
+}
+
+.dark-background {
+  background-color: rgb(39, 53, 71);
+}
+
+#collaboration {
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  height: 470px;
+
+}
+
+#collaboration img {
+  width: 52%;
+  margin: 0 auto;
+  display: inline-block;
+  height: 70%;
+}
+
+#collaboration .section-text {
+  width: 40%;
+  color: white;
+  margin: 0 auto;
+  padding: 30px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#collaboration .section-text h3 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+#collaboration ul {
+  line-height: 2.4;
+  list-style: none;
+}
+
+#collaboration button {
+  background-color: #cb3837;
+  color: #fff;
+  width: 45%;
+  height: 46px;
+}
+
+#collaboration p {
+  margin-top: 10px;
+}
+
+#collaboration a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 18px;
+}
+
+#npmjs {
+  height: 450px;
+  background-image: url("file:///C:/Users/User/Desktop/HTML/NPM/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.what-is-npm {
+  color: white;
+  width:30%;
+  float: left;
+  padding: 15px;
+  margin-left: 100px;
+  margin-top: 100px;
+  line-height: 1.5;
+}
+
+.what-is-npm h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.what-is-npm p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.what-is-npm button {
+    background-color: #34495e;
+    color: white;
+    width: 45%;
+    height: 30px;
+}
+
+#fourth-section {
+  background-color: white;
+  height: 500px;
+}
+
+#fourth-section .intro {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#fourth-section .intro h3 {
+  padding-top: 9%;
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#fourth-section .intro p {
+  padding: 20px;
+  color: grey;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 22%;
+  display: inline-block;
+  float: none;
+}
+
+#fourth-section img {
+  padding-top: 10px;
+}
+
+#fourth-section h5 {
+  padding-top: 10px;
+}
+
+.col-middle { margin-left: 5%; margin-right: 5%;}
+
+#fourth-section .content {
+  text-align: center;
+  float: none;
+}
+
+#fourth-section .content p {
+  color: grey;
+  padding-top: 10px;
+}
+
+nav * a, nav * span, nav * a {
+  font-size: 1.7em;
+}
+
+nav * li, nav * a, nav * span {
+  padding: 0.625em 0;
+}
+
+nav * a:hover, nav * span:hover, nav * a:hover {
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 8px 0;
+}
